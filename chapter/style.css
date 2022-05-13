@@ -1,0 +1,47 @@
+body{
+
+    color: black;
+
+}
+
+cite{
+
+    color: gray;
+    
+
+}
+
+q{
+
+    color: orange;
+    
+	
+
+}
+
+#design{
+
+    color: gray;
+
+}
+
+
+h5{
+
+    color: gray;
+
+}
+
+figure {
+
+    width: auto ;
+    float: right ;
+
+}
+
+figcaption{
+
+    color: gray;
+    size: 8px;
+
+}
