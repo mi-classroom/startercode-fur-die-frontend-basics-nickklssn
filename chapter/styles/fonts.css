@@ -1,0 +1,9 @@
+@font-face {
+    font-family: IBM-Plex-Sans-Regular;
+    src: url(fonts/ibm-plex/IBMPlexSans-Regular.otf);
+}
+
+@font-face {
+    font-family: IBM-Plex-Serif;
+    src: url(fonts/ibm-plex/IBMPlexSerif-Regular.otf);
+}
