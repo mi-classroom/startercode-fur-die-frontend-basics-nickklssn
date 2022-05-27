@@ -1,130 +1,129 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+    font-style: normal;
     font-weight: normal;
 }
 
 h1,
 h2,
 h3 {
-    color: #706F6F;
+    color: var(--text-color-darker);
     font-weight: bold;
-    margin-left: 40px;
+    margin-left: var(--left-text-margin-xl);
 }
 
 h1 {
-    font-size: 50px;
+    font-size: var(--primary-font-regular-xxl);
 }
 
 h2 {
-    color: black;
-    font-size: 35px;
+    color: var(--text-color-darkest);
+    font-size: var(--primary-font-regular-xl);
 }
 
 h3 {
-    font-size: 25px;
-    margin-top: 30px;
-    margin-bottom: -5px;
+    font-size: var(--primary-font-regular-l);
+    margin-top: var(--left-text-margin-l);
+    margin-bottom: var(--margin-bottom-spacing-m);
 }
 
 .chapter-number {
-    color: #706F6F;
-    margin-bottom: -20px;
+    color: var(--text-color-darker);
+    margin-bottom: var(--margin-bottom-spacing-s);
 }
 
 blockquote {
-    color: #DFAC4A;
+    color: var(--quote-color);
     font-weight: bold;
     font-style: italic;
-    font-size: 18px;
-    margin-left: 20px;
+    font-size: var(--primary-font-regular-s);
+    margin-left: var(--left-text-margin-xl);
 }
 
 p {
-    color: #3C3C3B;
-    font-size: 18px;
-    margin-left: 40px;
+    color: var(--text-color);
+    font-size: var(--primary-font-regular-s);
+    margin-left: var(--left-text-margin-xl);
 }
 
 .chapter-intro {
-    color: #706F6F;
+    color: var(--text-color-darker);
 
 }
 
 figcaption {
-    color: #9D9D9C;
-    font-size: 16px;
-    margin-left: 40px;
+    color: var(--text-color-neutral);
+    font-size: var(--primary-font-regular-xs);
+    margin-left: var(--left-text-margin-xl);
     font-weight: bold;
 }
 
 cite {
-    color: #9D9D9C;
-    font-size: 16px;
+    color: var(--text-color-neutral);
+    font-size: var(--primary-font-regular-xs);
     font-style: normal;
     font-weight: bold;
 }
 
 hr {
-    background-color: #706F6F;
+    background-color: var(--text-color-darker);
     height: 4px;
     width: 300px;
-    margin-left: 40px;
-    margin-top: -20px;
-    margin-bottom: 40px;
+    margin-left: var(--left-text-margin-xl);
+    margin-top: var(--margin-top-spacing-m);
+    margin-bottom: var(--margin-bottom-spacing-xl);
 }
 
 #user-experience-block {
     text-align: center;
-    background-color: #F0EFEF;
+    background-color: var(--background-color-lightest);
 }
 
 table {
-    color: #3C3C3B;
-    font-size: 16px;
-    margin-left: 40px;
+    color: var(--text-color);
+    font-size: var(--primary-font-regular-xs);
+    margin-left: var(--left-text-margin-xl);
     text-align: left;
-    border-spacing: 15px;
+    border-spacing: var(--table-border-spacing);
 }
 
 th {
-    color: #706F6F;
-    font-size: 20px;
+    color: var(--text-color-darker);
+    font-size: var(--primary-font-regular-m);
     border-radius: 0.25em;
 }
 
 form,
 legend {
-    color: #706F6F;
-    margin-left: 40px;
-    margin-bottom: 40px;
-    font-size: 18px;
+    color: var(--text-color-darker);
+    margin-left: var(--left-text-margin-xl);
+    margin-bottom: var(--margin-bottom-spacing-xl);
+    font-size: var(--primary-font-regular-s);
     font-weight: bold;
 }
 
 fieldset {
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-bottom: 40px;
+    margin-top: var(--margin-top-spacing-xl);
+    margin-left: var(--left-text-margin-xl);
+    margin-bottom: var(--margin-bottom-spacing-xl);
     height: 500px;
     width: 500px;
 }
 
 legend {
-    font-size: 20px;
-    margin-bottom: 25px;
+    font-size: var(--primary-font-regular-m);
+    margin-bottom: var(--margin-bottom-spacing-l);
 }
 
-a {
-    color: #3C3C3B;
-}
+
 
 #name,
 #email,
 #comment {
-    width: 400px;
+    width: var(--label-textfield-width);
 }
 
 #comment {
     height: 70px;
 }
+

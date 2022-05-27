@@ -1,0 +1,32 @@
+:root{
+
+    --text-color-darkest: black;
+    --text-color-darker: #706F6F;
+    --text-color-neutral: #9D9D9C;
+    --background-color-lightest: #F0EFEF;
+    --text-color: #3C3C3B;
+    --quote-color: #DFAC4A;
+    
+    
+    --label-textfield-width: 400px;
+    --left-text-margin-xl: 40px;
+    --table-border-spacing: 15px;
+
+    --primary-font-regular-xxl: 50px;
+    --primary-font-regular-xl: 35px;
+    --primary-font-regular-l: 25px;
+    --primary-font-regular-m: 20px;
+    --primary-font-regular-s: 18px;
+    --primary-font-regular-xs: 16px;
+
+    --margin-top-spacing-xl: 40px;
+    --margin-top-spacing-l: 30px;
+    --margin-top-spacing-m: -20px;
+
+    --margin-bottom-spacing-xl: 40px;
+    --margin-bottom-spacing-l: 25px;
+    --margin-bottom-spacing-m: -5px;
+    --margin-bottom-spacing-s: -20px;
+
+
+}
